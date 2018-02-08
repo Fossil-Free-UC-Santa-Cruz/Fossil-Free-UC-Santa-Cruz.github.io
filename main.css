@@ -1,0 +1,16 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.above-nav{
+  height: 100px;
+  background-color: rgb(88, 62, 126);
+  p {
+      color:#fff;
+      line-height: 100px;
+      font-size:20px;
+      padding: 0;
+  }
+}
