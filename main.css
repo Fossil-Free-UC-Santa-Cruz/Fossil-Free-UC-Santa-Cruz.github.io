@@ -1,8 +1,9 @@
 /* Show it is fixed to the top */
 body {
   min-height: 75rem;
-  padding-top: 4.5rem;
-  margin: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .above-nav{
