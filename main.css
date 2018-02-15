@@ -1,9 +1,8 @@
 /* Show it is fixed to the top */
 body {
   min-height: 75rem;
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-top: 0px;
+  margin: 200px;
 }
 
 .above-nav{
@@ -18,7 +17,7 @@ body {
 }
 
 .header {
-  margin-bottom: 4rem;
+  margin-bottom: 0px;
 }
 
 .sidebar {
