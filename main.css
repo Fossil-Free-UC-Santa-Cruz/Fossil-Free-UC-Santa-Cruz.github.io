@@ -2,11 +2,13 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
+  max-width: 300px;
+  margin: auto;
 }
 
 .above-nav{
-  height: 50px;
-  background-color: rgb(88, 62, 126);
+  height: 0px;
+  background-color: rgb(255, 255, 255);
    {
       color:#fff;
       line-height: 100px;
