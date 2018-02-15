@@ -1,7 +1,7 @@
 /* Show it is fixed to the top */
 body {
   min-height: 75rem;
-  margin-top: 0px;
+  margin-top: -200px;
   margin: 200px;
 }
 
@@ -17,10 +17,10 @@ body {
 }
 
 .header {
-  margin-bottom: 0px;
+  margin-bottom: -50px;
 }
 
 .sidebar {
-    margin-top:-50px;
-    margin-bottom: 30px;
+    margin-top:-40px;
+    margin-bottom: 0px;
 }
