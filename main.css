@@ -1,12 +1,18 @@
 /* Show it is fixed to the top */
 body {
-  min-height: 75rem;
-  padding-top: 4.5rem;
+  width: 100%;
+  padding: 0;
+  margin: 200pt;
+  /*min-height: 75rem;
+  margin-top: -200px;*/
 }
 
 .above-nav{
-  height: 50px;
-  background-color: rgb(88, 62, 126);
+  width: 100%;
+  padding: 0;
+  margin: 200pt;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
    {
       color:#fff;
       line-height: 100px;
@@ -16,10 +22,10 @@ body {
 }
 
 .header {
-  margin-bottom: 4rem;
+  margin-bottom: -50px;
 }
 
 .sidebar {
-    margin-top:100px;
-    margin-bottom: 30px;
+    margin-top:-20px;
+    margin-bottom: 0px;
 }
