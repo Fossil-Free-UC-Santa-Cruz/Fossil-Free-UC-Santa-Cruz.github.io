@@ -1,7 +1,7 @@
 /* Show it is fixed to the top */
 body {
   width: 100%;
-  padding: 0;
+  padding: 20;
   margin: auto;
   /*min-height: 75rem;
   margin-top: -200px;*/
