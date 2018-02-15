@@ -8,6 +8,9 @@ body {
 }
 
 .above-nav{
+  width: 100%;
+  padding: 0;
+  margin: 200pt;
   height: 0px;
   background-color: rgb(255, 255, 255);
    {
@@ -23,6 +26,6 @@ body {
 }
 
 .sidebar {
-    margin-top:-40px;
+    margin-top:-20px;
     margin-bottom: 0px;
 }
