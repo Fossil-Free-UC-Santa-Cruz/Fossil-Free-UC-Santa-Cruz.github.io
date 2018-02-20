@@ -1,9 +1,15 @@
 /* Show it is fixed to the top */
+
+html {
+  background-color: rgb(211, 211, 211);
+}
+
 body {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
+  background-color: rgb(255, 255, 255);
 }
 
 .above-nav{
