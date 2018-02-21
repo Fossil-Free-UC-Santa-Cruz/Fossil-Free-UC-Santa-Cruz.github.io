@@ -1,2 +1,2 @@
 # Fossil-Free-UC-Santa-Cruz.github.io
-Fossil Free UCSC's official website.
+Fossil Free UC Santa Cruz's official website.
