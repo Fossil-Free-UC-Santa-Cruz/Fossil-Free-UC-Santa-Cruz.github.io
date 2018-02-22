@@ -1,16 +1,18 @@
 /* Show it is fixed to the top */
+
+html {
+  background-color: rgb(211, 211, 211);
+}
+
 body {
   width: 100%;
-  padding: 0;
-  margin: 200pt;
-  /*min-height: 75rem;
-  margin-top: -200px;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
 }
 
 .above-nav{
-  width: 100%;
-  padding: 0;
-  margin: 200pt;
   height: 0px;
   background-color: rgb(255, 255, 255);
    {
@@ -26,6 +28,6 @@ body {
 }
 
 .sidebar {
-    margin-top:-20px;
+    margin-top:0px;
     margin-bottom: 0px;
 }
