@@ -1,10 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<body>
+  <head>
+    <!-- Social Media/Share Icons -->
+    <style>
+        .fa {
+            padding: 12px;
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            transition: transform 3s;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+        .fa:hover {
+            opacity: 0.4;
+            transform: rotate(1080deg);
+        }
+        .fa-facebook-f {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-instagram {
+            background: #E74C3C;
+            color: white;
+        }
+       .fa-share-alt {
+           background: black;
+           color: white;
+       }
+       .sideImg {
+           width:300px;
+           height:200px;
+       }
+    </style>
+      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./logoTransparent.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Contact Us</title>
 
-contact page
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
 
-</body>
+  </head>
+
+    <body>
+    <main role="main" class="container">
+      <a href="#" class="above-nav"><img src="./logoTransparent.png" width="150" height="150"></a>
+      <nav class="navbar navbar-expand-md navbar-light bg-white mb-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-divestment/">About Divestment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./our-mission/">Our Mission</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./who-we-are/">Who We Are</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="http://www.fossilfreeuc.org/petition">Sign Our Petition</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./get-involved/">Get Involved</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contact-us/">Contact Us</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-8">
+          <h1 style="text-align:center">Contact Us</h1>
+          <hr>
+          <p style="text-align:center">
+            Want to learn more? Any comments or questions? Interested in collaborating? Please email us at fossilfreeucsc@gmail.com, or click on the icons below to connect with us on social media.
+          </p>
+          <p style="text-align:center">
+              Fill out the form below to sign up for our emailing list!
+          </p>
+        <form action="/handling-form-page" method="post">
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 order-md-1">
+                <div class="row">
+                    <div class="col-md mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="name" required>
+                        <div class="invalid-feedback">
+                            Valid name is required.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md mb-3">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" name="email" required>
+                        <div class="invalid-feedback">
+                            Valid email is required.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-md btn-block" type="submit">Submit</button>
+            </div>
+        </div>
+        </form>
+        </div>
+          
+        <aside class="col-md-4 sidebar">
+            <img src="./chantCircle.png" alt="Chant Circle" class="sideImg">
+            <hr>
+            <img src="./divestDinosaur.png" alt="Divestment Dinosaur" class="sideImg">
+            <hr>
+            <img src="./fossilFreeMarch.png" alt="UCSC Main Entrance" class="sideImg">
+            <hr>
+            <!-- Font Awesome Icons -->
+            <a href="https://www.facebook.com/ffucsc/" target="_blank" class="fa fa-facebook-f"></a>
+            &nbsp; &nbsp;
+            <a href="https://www.instagram.com/fossilfreeucsc/" target="_blank" class="fa fa-instagram"></a>
+            &nbsp; &nbsp;
+            <a href="mailto:?subject=Fossil Free UCSC&amp;body=Check out the website for Fossil Free UCSC! www.fossilfreeucsc.org."
+              class="fa fa-share-alt"></a><br>
+        </aside>
+        
+    </div>
+    </main>
+    </body>
 </html>
