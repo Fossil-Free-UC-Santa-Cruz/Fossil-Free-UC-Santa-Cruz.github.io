@@ -1,12 +1,20 @@
 /* Show it is fixed to the top */
+
+html {
+  background-color: rgb(211, 211, 211);
+}
+
 body {
-  min-height: 75rem;
-  padding-top: 4.5rem;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
 }
 
 .above-nav{
-  height: 50px;
-  background-color: rgb(88, 62, 126);
+  height: 0px;
+  background-color: rgb(255, 255, 255);
    {
       color:#fff;
       line-height: 100px;
@@ -16,10 +24,10 @@ body {
 }
 
 .header {
-  margin-bottom: 4rem;
+  margin-bottom: -50px;
 }
 
 .sidebar {
-    margin-top:60px;
-    margin-bottom: 30px;
+    margin-top:0px;
+    margin-bottom: 0px;
 }
